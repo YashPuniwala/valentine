@@ -1,0 +1,61 @@
+.commented-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fde6eb;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded border */
+    overflow: hidden; /* Ensure content stays within rounded border */
+    padding-bottom: 0px; /* Initial padding */
+  }
+  
+  .commented-image:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: #f9a8d4; 
+    transform: translateY(-1px);
+    padding-bottom: 0; /* Remove padding on hover */
+  }
+  
+  .commented-image img {
+    padding: 1.25rem; 
+    transition: transform 0.3s ease;
+    border-radius: 10px; /* Rounded border for image */
+  }
+  
+  .commented-image img:hover {
+    transform: translateY(-5px);
+    padding-bottom: 0px;
+  }
+  
+  .commented-image h1 {
+    color: #f06292; 
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 17px;
+  }
+  
+  .commented-image:hover h1 {
+    opacity: 1;
+  }
+
+  .video {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px; /* Rounded border for video */
+    background-color: red;
+  }
+  
+  @media (max-width: 1000px) {
+    .commented-image h1 {
+      font-size: 10px;
+    }
+    .text-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
