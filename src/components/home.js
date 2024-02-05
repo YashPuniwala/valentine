@@ -32,7 +32,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div>
       <div className="container">
         <div className="header">
           <h1>Hi Beautiful</h1>
@@ -153,11 +153,28 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="puzzleLove-content">
-        <div className="puzzleLoveText">
-          <div className="question1">Will you be my Shru?</div>
+      <div className="shru-content">
+        <div className="shruLoveText">
+          <div className="question5">
+            Soo Shruuuu.....
+          </div>
         </div>
       </div>
+
+      <div className="coffeeLove-content">
+        <div className="coffeeLoveText">
+          <div className="question2" style={{fontSize:"4rem"}}>
+            Ummm
+          </div>
+        </div>
+      </div>
+
+      <div className="puzzleLove-content">
+        <div className="puzzleLoveText">
+          <div className="question1">Will you be my Valentine?</div>
+        </div>
+      </div>
+      
 
       <div className="buttons-div">
         <button onClick={handleOpen} className="yes-button">
@@ -215,7 +232,7 @@ const Home = () => {
           <></>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

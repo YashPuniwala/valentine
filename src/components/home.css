@@ -1,9 +1,10 @@
-/* body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
- */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -167,6 +168,34 @@
   color: #ffb6c1; /* hot pink */
 }
 
+.shru-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+.shruLoveText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-weight: bold;
+  font-size: 3rem; /* 6xl */
+  color: #ffb6c1; /* hot pink */
+  width: auto;
+}
+
 .spotifyLove-content {
   display: flex;
   justify-content: space-evenly;
@@ -303,13 +332,13 @@
   /* gap: 10px; */
   width: 60%;
   height: auto;
-  background-color: #ffffff; 
-  border-radius: 30px; 
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .ticket-info img {
-  height: 120px; 
+  height: 120px;
 }
 
 .ticket-info h1 {
@@ -322,7 +351,7 @@
 .ticket-info h2 {
   width: 66.67%; /* 2/3 of the width */
   color: #000000; /* Black text color */
-  opacity: 0.60; /* Text opacity */
+  opacity: 0.6; /* Text opacity */
   font-weight: bold;
   font-style: italic;
   font-size: 25px;
@@ -336,6 +365,7 @@
   font-size: 25px;
 }
 
+  
 
 @media (max-width: 1000px) {
   .content {
@@ -344,8 +374,8 @@
   }
 
   .alert-text {
-  font-size: 14px;
-  width: 240px;
+    font-size: 14px;
+    width: 240px;
   }
 
   .buttons-div {
@@ -423,5 +453,12 @@
   }
   .uhh-header h1 {
     font-size: 3rem;
+  }
+  .shru-content {
+    width: auto;
+  }
+  .question5 {
+    font-size: 40px;
+    width: 300px;
   }
 }
